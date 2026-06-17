@@ -184,6 +184,18 @@ class BitcoinMainnet(AbstractNet):
     def datadir_subdir(cls):
         return None
 
+class BMBnet(BitcoinMainnet):
+
+    NET_NAME = "bmbnet"
+    GENESIS = "000000002f614682b2b4014d4948eeccf606221496572b2e7e6864404c36a163"
+    DEFAULT_PORTS = {'t': '40009'}
+    LN_DNS_SEEDS = []
+    BLOCK_HEIGHT_FIRST_LIGHTNING_CHANNELS = 0
+    PREPOPULATE_HEADERS_FILE = False
+
+    @classmethod
+    def datadir_subdir(cls):
+        return cls.NET_NAME
 
 class BitcoinTestnet(AbstractNet):
 
