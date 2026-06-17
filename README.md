@@ -19,15 +19,15 @@
 ### 실행하기
 
 아래 electrum 실행과정과 동일합니다
-비트코인은 ./run_electrum 실행
-비트모빅은 ./run_electrum --bmbnet 실행
+* 비트코인은 ./run_electrum 실행
+* 비트모빅은 ./run_electrum --bmbnet 실행
 
 ---
 
 #### BTCmobick, BMB 란?
 
-BTCmobick - https://btcmobick.org/ko
-Learn Me A BTCMobick - https://learnmeabtcmobick.com/story
+* BTCmobick - https://btcmobick.org/ko
+* Learn Me A BTCMobick - https://learnmeabtcmobick.com/story
 
 ---
 
