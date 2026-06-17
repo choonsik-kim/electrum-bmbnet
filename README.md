@@ -1,3 +1,21 @@
+# Electrum-BMBnet: Electrum Wallet for Bitmobic Network
+
+`electrum-bmbnet`은 비트코인 기반의 하드포크 프로젝트인 **비트모빅(Bitmobick, BMB)** 네트워크를 지원하기 위해 기존 Electrum 지갑을 커스텀한 버전입니다. 
+
+기본적인 Electrum의 가볍고 강력한 지갑 기능(SPV 검증, 콜드 스토리지, 멀티시그 등)을 그대로 유지하면서, 비트모빅 네트워크(`--bmbnet`)에 연결할 수 있도록 제네시스 블록 해시 및 전용 일렉트럼 서버 설정이 추가되었습니다.
+
+---
+
+## 📌 주요 변경 사항 (Network Specifications)
+
+비트모빅은 비트코인의 속성과 파라미터를 그대로 따르지만, 독자적인 메인넷 블록체인과 서버 네트워크를 가집니다.
+
+* **Genesis Block Hash**: `000000002f614682b2b4014d4948eeccf606221496572b2e7e6864404c36a163`
+* **Default Electrum Server**: `wallet.mobick.info:40009` (SSL)
+* **Network Flag**: `--bmbnet` 추가
+
+---
+
 # Electrum - Lightweight Bitcoin client
 
 ```
