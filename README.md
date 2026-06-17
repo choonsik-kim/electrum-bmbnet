@@ -1,6 +1,6 @@
 # Electrum-BMBnet: Electrum Wallet for Bitmobic Network
 
-`electrum-bmbnet`은 비트코인 기반의 하드포크 프로젝트인 **비트모빅(Bitmobick, BMB)** 네트워크를 지원하기 위해 기존 Electrum 지갑을 커스텀한 버전입니다. 
+`electrum-bmbnet`은 비트코인 기반의 하드포크 프로젝트인 **비트모빅(BTCmobick, BMB)** 네트워크를 지원하기 위해 기존 Electrum 지갑을 커스텀한 버전입니다. 
 
 기본적인 Electrum의 가볍고 강력한 지갑 기능(SPV 검증, 콜드 스토리지, 멀티시그 등)을 그대로 유지하면서, 비트모빅 네트워크(`--bmbnet`)에 연결할 수 있도록 제네시스 블록 해시 및 전용 일렉트럼 서버 설정이 추가되었습니다.
 
@@ -21,6 +21,13 @@
 아래 electrum 실행과정과 동일합니다
 비트코인은 ./run_electrum 실행
 비트모빅은 ./run_electrum --bmbnet 실행
+
+---
+
+#### BTCmobick, BMB 란?
+
+BTCmobick - https://btcmobick.org/ko
+Learn Me A BTCMobick - https://learnmeabtcmobick.com/story
 
 ---
 
