@@ -1,4 +1,4 @@
-# Electrum-BMBnet: Electrum Wallet for Bitmobic Network
+# Electrum-BMBnet: Electrum Wallet for BTCmobick Network
 
 `electrum-bmbnet`은 비트코인 기반의 하드포크 프로젝트인 **비트모빅(BTCmobick, BMB)** 네트워크를 지원하기 위해 기존 Electrum 지갑을 커스텀한 버전입니다. 
 
