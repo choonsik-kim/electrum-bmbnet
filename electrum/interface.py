@@ -1610,7 +1610,8 @@ class Interface(Logger):
             # The protocol spec says the server itself should already have returned -1
             # if it cannot provide an estimate. "Fulcrum" often sends:
             #   aiorpcx.jsonrpc.RPCError: (-32603, 'internal error: bitcoind request timed out')
-            if e.code == JSONRPC.INTERNAL_ERROR:
+            # Some servers (e.g. electrs) return METHOD_NOT_FOUND or legacy code 2 instead.
+            if e.code in (JSONRPC.INTERNAL_ERROR, JSONRPC.METHOD_NOT_FOUND, 2):
                 res = -1
             else:
                 raise
